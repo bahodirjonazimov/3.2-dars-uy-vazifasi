@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+  background-color: rgb(239, 239, 50);
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.main {
+}
+
+.body {
+  align-items: center;
+}
+
+.learning {
+}
+
+.container {
+  border: 2px solid blue;
+  width: 100%;
+  width: 384px;
+  height: 522px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 8px 8px 0px 0px #000000;
+  background-color: #ffffff;
+}
+
+.learning__images {
+  width: 336px;
+  height: 200px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.learning-img {
+  width: 82px;
+  height: 29px;
+  padding: 4px 12px 4px 12px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.learning__blogs {
+  width: Fill (336px) px;
+  height: Hug (194px) px;
+  gap: 12px;
+  opacity: 0px;
+}
+
+.learning__div {
+  width: 384px;
+  height: 522px;
+}
+
+.learning__time {
+  font-family: Figtree;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 24px;
+}
+
+.learning__link {
+  font-family: Figtree;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 24px;
+  &:hover {
+    opacity: 80%;
+    color: orange;
+  }
+  &:active {
+    opacity: 60%;
+    color: orange;
+  }
+}
+
+.learning__text {
+  font-family: Figtree;
+  font-size: 16px;
+  width: 336px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 24px;
+}
+
+.learning__spans {
+  display: flex;
+}
+
+.learning__img {
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 24px;
+  margin-right: 5.5px;
+  margin-top: -330px;
+}
+
+.learning__img__text {
+  font-family: Figtree;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: black;
+  align-items: center;
+  margin-top: -325px;
+  &:hover {
+    opacity: 80%;
+    color: orange;
+  }
+  &:active {
+    opacity: 60%;
+    color: orange;
+  }
+}
